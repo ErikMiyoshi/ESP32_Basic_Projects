@@ -20,9 +20,9 @@ services:
       - DOCKER_INFLUXDB_INIT_MODE=setup
       - DOCKER_INFLUXDB_INIT_USERNAME=admin
       - DOCKER_INFLUXDB_INIT_PASSWORD=adminpass
-      - DOCKER_INFLUXDB_INIT_ORG=meu_org
-      - DOCKER_INFLUXDB_INIT_BUCKET=meu_bucket
-      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=meutoken123
+      - DOCKER_INFLUXDB_INIT_ORG=my_org
+      - DOCKER_INFLUXDB_INIT_BUCKET=my_bucket
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=mytoken123
     restart: unless-stopped
 
   telegraf2:

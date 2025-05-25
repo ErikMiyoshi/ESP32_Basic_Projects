@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
-import SensorChart from './SensorChart';
+import SensorChart from './sensorchart';
 import HistoryChart from './historychart';
 import JoystickChart from './joystickchart';
 

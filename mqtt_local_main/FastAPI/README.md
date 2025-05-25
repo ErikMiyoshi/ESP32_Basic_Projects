@@ -1,5 +1,7 @@
 Create a venv
 
+python -m venv venv
+
 Installation
 
 pip install fastapi uvicorn influxdb-client

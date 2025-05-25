@@ -29,8 +29,8 @@ function HistoryChart() {
         <select value={interval} onChange={e => setInterval(e.target.value)}>
           <option value="-5m">Last 5 minutes</option>
           <option value="-30m">Last 30 minutes</option>
-          <option value="-1h">Last 1 hora</option>
-          <option value="-6h">Last 6 horas</option>
+          <option value="-1h">Last 1 hour</option>
+          <option value="-6h">Last 6 hours</option>
         </select>
       </label>
       <label>

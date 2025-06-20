@@ -137,4 +137,7 @@ sdkconfig.old
 # Ignore dependency files
 *.d
 
+#ignore virtual environment "venv" and "venvnode"
+**/venv/
+**/venvnode/
 
